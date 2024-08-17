@@ -1,9 +1,9 @@
 [package]
 name = "nuid"
-version = "0.5.0"
-authors = ["Ivan Porto Carrero <ivan@oflanders.co.nz>"]
+version = "0.0.1"
+authors = ["sheldy <chikibamtioma@gmail.com>"]
 license = "Apache-2.0"
-repository = "https://github.com/casualjim/rs-nuid.git"
+repository = "https://github.com/sheldygg/py-nuid.git"
 readme = "README.md"
 keywords = ["nuid", "guid", "uuid"]
 description = "A highly performant unique identifier generator."
@@ -13,3 +13,4 @@ rust-version = "1.63"
 
 [dependencies]
 rand = "0.8"
+pyo3 = { version = "0.18", features = ["extension-module"] }
